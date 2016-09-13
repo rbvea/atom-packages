@@ -1,0 +1,102 @@
+"*":
+  "atom-beautify":
+    css:
+      default_beautifier: "CSScomb"
+    general:
+      _analyticsUserId: "64f5d761-456c-401c-a9ff-70132808b04d"
+  "atom-htmltidy":
+    formatOnSave: false
+  "atom-typescript": {}
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "atom-django"
+      "linter-eslint"
+      "linter-twig"
+      "language-jade"
+      "tabs-to-spaces"
+      "background-tips"
+      "bookmarks"
+      "deprecation-cop"
+      "dev-live-reload"
+      "go-to-line"
+      "language-c"
+      "language-csharp"
+      "language-go"
+      "language-hyperlink"
+      "language-java"
+      "language-less"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-ruby"
+      "language-toml"
+      "metrics"
+      "open-on-github"
+      "styleguide"
+      "atom-htmltidy"
+    ]
+    ignoredNames: [
+      ".git"
+      ".sass-cache"
+    ]
+    packagesWithKeymapsDisabled: []
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    fontSize: 12
+    invisibles: {}
+    lineHeight: 1.33
+    softWrapAtPreferredLineLength: true
+  emmet: {}
+  "exception-reporting":
+    userId: "d0b55255-d7f1-c634-9dc0-7f07aa68cba2"
+  "fuzzy-finder":
+    ignoredNames: [
+      "node_modules"
+    ]
+  "git-diff":
+    showIconsInEditorGutter: true
+  linter: {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+    eslintRulesDir: "/Users/veas"
+    eslintrcPath: "/Users/veas"
+    globalNodePath: "/Users/veas/.nvm/versions/node/v4.2.1"
+    lintHtmlFiles: true
+    useGlobalEslint: true
+  "linter-php":
+    executablePath: "/Applications/MAMP/bin/php/php7.0.8/bin/php"
+  "linter-scss-lint":
+    executablePath: "/Users/veas/.rvm/gems/ruby-2.1.2/bin/scss-lint"
+  "linter-tidy": {}
+  "one-light-ui": {}
+  react: {}
+  term3: {}
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    showOnRightSide: true
+  "vim-mode-plus":
+    charactersToAddSpaceOnSurround: [
+      "()"
+      "[]"
+      "{}"
+      "\"\""
+      "''"
+      "{%%}"
+    ]
+    showCursorInVisualMode: false
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1473715418
+  welcome:
+    showOnStartup: false
+".sass.source":
+  editor:
+    autoIndent: true
+    softWrap: false

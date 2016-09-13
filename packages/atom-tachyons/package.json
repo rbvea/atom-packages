@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/d-116731-13355-162z9pm/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/d-116731-13355-162z9pm/package.tgz",
+        "spec": "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/d-116731-13355-162z9pm/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/apm-install-dir-116731-13355-7vh280"
+    ]
+  ],
+  "_from": "../d-116731-13355-162z9pm/package.tgz",
+  "_id": "atom-tachyons@1.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-tachyons",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/d-116731-13355-162z9pm/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/d-116731-13355-162z9pm/package.tgz",
+    "spec": "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/d-116731-13355-162z9pm/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116731-13355-162z9pm/package.tgz",
+  "_shasum": "fe00dd9019c41b42febf435837b8a4bc343051ed",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/d-116731-13355-162z9pm/package.tgz",
+  "_where": "/private/var/folders/y1/t9tds1rx74j5vszj85shd3tr0000gn/T/apm-install-dir-116731-13355-7vh280",
+  "activationCommands": {
+    "bootstrap": "toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/calweb/atom-tachyons/issues"
+  },
+  "dependencies": {},
+  "description": "Tachyon Support with snippets and autocompletion.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/calweb/atom-tachyons#readme",
+  "keywords": [
+    "atom",
+    "tachyons",
+    "css"
+  ],
+  "license": "MIT",
+  "name": "atom-tachyons",
+  "optionalDependencies": {},
+  "readme": "# Tachyon Support for Atom\n\nProvides [Tachyon][1] classes with autocompletion and [component][2] snippets.\n\n## Install:\n```bash\napm install atom-tachyons\n```\n\n## Key Features:\n\n  - Supports autocompletion of all helper classes in JavaScript, CSS and HTML\n  - Snippet support for all [components][2] in js, jsx, and html files.\n\n## Components\n\nAll [components][2] also have autocompletion support for extra options.\n\n### Articles\n  - `large-title-text`\n  - `left-title-top`\n  - `left-title`\n  - `title-text-image`\n  - `title-text`\n\n### Collections\n  - `news-card`\n  - `product-card`\n  - `profile-card-title`\n  - `profile-card`\n  - `text-card`\n\n### Footers\n  - `simple-large-type`\n  - `small-print`\n  - `social-circles`\n  - `social-text`\n  - `social`\n\n### Headers\n  - `circle-avatar-title`\n  - `fixed-semi-transparent`\n  - `rounded-avatar-title`\n\n### Layout\n  - `centered-container`\n  - `flag-object-collapse`\n  - `flag-object`\n  - `four-column-collapse-two`\n  - `four-column`\n  - `two-column-collapse-one`\n  - `two-column`\n\n### Lists\n  - `border-spaced`\n  - `border-tight`\n  - `large-links-inline`\n  - `links-inline`\n  - `links-borders-inline`\n  - `slab-stat`\n  - `title-text-list`\n\n### Nav\n  - `large-title-link-list`\n  - `list-overflow`\n  - `logo-links-inline-collapse`\n  - `logo-links`\n  - `title-link-list`\n\n\n[1]: http://tachyons.io/\n[2]: http://tachyons.io/components/\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calweb/atom-tachyons.git"
+  },
+  "version": "1.2.0"
+}

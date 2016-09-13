@@ -1,0 +1,118 @@
+{
+  "name": "language-html",
+  "version": "0.45.1",
+  "description": "HTML language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://atom.github.io/language-html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/language-html.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atom/language-html/issues"
+  },
+  "dependencies": {
+    "atom-grammar-test": "0.6.0"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.10.1"
+  },
+  "readme": "# HTML language support in Atom\n[![OS X Build Status](https://travis-ci.org/atom/language-html.svg?branch=master)](https://travis-ci.org/atom/language-html)\n[![Windows Build status](https://ci.appveyor.com/api/projects/status/t6pk6mmdgcelfg85/branch/master?svg=true)](https://ci.appveyor.com/project/Atom/language-html/branch/master)\n[![Dependency Status](https://david-dm.org/atom/language-html.svg)](https://david-dm.org/atom/language-html) \n\nAdds syntax highlighting and snippets to HTML files in Atom.\n\nOriginally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)\nfrom the [HTML TextMate bundle](https://github.com/textmate/html.tmbundle).\n\nContributions are greatly appreciated. Please fork this repository and open a\npull request to add snippets, make grammar tweaks, etc.\n",
+  "readmeFilename": "README.md",
+  "_id": "language-html@0.45.1",
+  "_shasum": "5d19d4af1752270feafcfda1c24acb1f054414f9",
+  "_resolved": "file:../d-11674-9164-wwufhc/package.tgz",
+  "_from": "../d-11674-9164-wwufhc/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "atom-grammar-test",
+        "version": "0.6.0",
+        "path": "node_modules/atom-grammar-test/lib/main.js"
+      },
+      {
+        "name": "chevrotain",
+        "version": "0.5.23",
+        "path": "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/api.js"
+      }
+    ],
+    "extensions": {
+      ".json": [
+        "coffeelint.json",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/package.json",
+        "node_modules/atom-grammar-test/package.json",
+        "package.json"
+      ],
+      ".js": [
+        "node_modules/atom-grammar-test/lib/assertions.js",
+        "node_modules/atom-grammar-test/lib/grammar.js",
+        "node_modules/atom-grammar-test/lib/io.js",
+        "node_modules/atom-grammar-test/lib/jasmine.js",
+        "node_modules/atom-grammar-test/lib/main.js",
+        "node_modules/atom-grammar-test/lib/matchers.js",
+        "node_modules/atom-grammar-test/lib/parser.js",
+        "node_modules/atom-grammar-test/lib/scope.js",
+        "node_modules/atom-grammar-test/lib/tokens.js",
+        "node_modules/atom-grammar-test/lib/utils.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/chevrotain.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/chevrotain.min.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/docs/assets/js/main.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/docs/assets/js/modernizr.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/docs/assets/js/search.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/api.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/lang/lang_extensions.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/cache.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/cache_public.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/constants.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/exceptions_public.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/gast_builder.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/checks.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/first.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/follow.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/gast.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/gast_public.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/interpreter.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/lookahead.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/path.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/resolver.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/grammar/rest.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/parse/parser_public.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/scan/lexer.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/scan/lexer_public.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/scan/tokens_public.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/text/range.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/bin/src/utils/utils.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/diagrams/sample/DUMMY_SAMPLE.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/diagrams/src/diagrams_behavior.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/diagrams/src/diagrams_builder.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/diagrams/src/main.js",
+        "node_modules/atom-grammar-test/node_modules/chevrotain/diagrams/vendor/railroad-diagrams.js"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "atom-grammar-test": "0.6.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/atom-grammar-test/lib",
+          "node_modules/atom-grammar-test"
+        ],
+        "dependencies": {
+          "chevrotain": "^0.5.19"
+        }
+      }
+    ]
+  }
+}
